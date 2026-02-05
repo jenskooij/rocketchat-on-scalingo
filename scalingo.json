@@ -1,0 +1,21 @@
+{
+  "name": "Rocket.Chat",
+  "description": "Bring together messaging, voice, video, critical apps, and AI to keep teams connected and missions protected.",
+  "website": "https://www.rocket.chat/",
+  "repository": "https://gitlab.com/yecco-oss/rocket.chat-on-scalingo",
+  "logo": "https://cdn.prod.website-files.com/611a19b9853b7414a0f6b3f6/611bbb87319adfd903b90f24_logoRC.svg",
+  "env": {
+    "ROOT_URL": {
+      "description": "Link to your Scalingo app",
+      "value": "https://<your-app>.scalingo.io/",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "amount": 1,
+      "size": "S"
+    }
+  },
+  "addons": ["mongodb:mongodb-starter-256"]
+}
