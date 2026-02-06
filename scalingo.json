@@ -14,8 +14,8 @@
   "formation": {
     "web": {
       "amount": 1,
-      "size": "S"
+      "size": "XL"
     }
   },
-  "addons": ["mongodb:mongodb-starter-256"]
+  "addons": ["mongodb:mongodb-starter-512"]
 }
