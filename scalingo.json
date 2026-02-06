@@ -19,10 +19,7 @@
   },
   "addons": [
     {
-      "plan": "mongodb:mongo-starter-4",
-      "options": {
-        "version": "8.2.4"
-      }
+      "plan": "mongodb:mongo-starter-512"
     }
   ]
 }
