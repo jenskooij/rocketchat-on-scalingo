@@ -17,7 +17,12 @@
       "size": "XL"
     }
   },
-  "addons": [{
-    "plan": "mongodb:mongodb-starter-256"
-  }]
+  "addons": [
+    {
+      "plan": "mongodb:mongo-starter-512",
+      "options": {
+        "version": "8.2.4"
+      }
+    }
+  ]
 }
