@@ -17,5 +17,7 @@
       "size": "XL"
     }
   },
-  "addons": ["mongodb:mongodb-starter-512"]
+  "addons": [{
+    "plan": "mongodb:mongodb-starter-256"
+  }]
 }
